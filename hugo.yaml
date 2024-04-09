@@ -24,7 +24,7 @@ markup:
 
 params:
   title: "Daniel Mesquita's Portfolio"
-  description: Daniel Mesquita's Portfolio | Full-stack software developer | Software Engineer | Web developer | Go | Golang | Typescript | Javascript | React | React Native | Node.js | Python
+  description: Software Engineer (Full-stack developer) specialized in Go (Golang), Python, Node.js, Typescript, Javascript, React & React Native
   # staticPath: ""  # The path to serve the static files from
   favicon: "/favicon.ico"
 
