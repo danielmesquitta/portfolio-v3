@@ -616,3 +616,8 @@ a[aria-label="github"] svg {
   border-radius: 8px;
   transform: scale(0.9);
 }
+
+.dropdown-item {
+  text-align: left !important;
+  padding-left: 1rem !important;
+}

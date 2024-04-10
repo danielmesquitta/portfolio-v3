@@ -22,6 +22,25 @@ markup:
     renderer:
       unsafe: true
 
+Menus:
+  main:
+    - identifier: dropdown
+      title: Select a language
+      name: 🇺🇸
+      weight: 1
+    - identifier: en-us
+      title: United States english
+      name: 🇺🇸 English
+      url: /en
+      parent: dropdown
+      weight: 1
+    - identifier: pt-br
+      title: Brazilian portuguese
+      name: 🇧🇷 Portuguese
+      url: /pt
+      parent: dropdown
+      weight: 2
+
 params:
   # staticPath: ""  # The path to serve the static files from
   favicon: "/favicon.ico"
@@ -409,6 +428,24 @@ languages:
       #  <script type="text/javascript"><!-- any script here --></script>
 
   pt:
+    Menus:
+      main:
+        - identifier: dropdown
+          title: Selecione o idioma
+          name: 🇧🇷
+          weight: 1
+        - identifier: en-us
+          title: United States english
+          name: 🇺🇸 English
+          url: /en
+          parent: dropdown
+          weight: 1
+        - identifier: pt-br
+          title: Brazilian portuguese
+          name: 🇧🇷 Portuguese
+          url: /pt
+          parent: dropdown
+          weight: 2
     weight: 2
     contentDir: content/pt
     disabled: false
