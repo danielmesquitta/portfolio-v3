@@ -1,5 +1,5 @@
-baseURL: "https://danielmesquitta.com"
-languageCode: "en-us"
+baseURL: "https://danielmesquitta.com/"
+languageCode: "en"
 title: "Daniel Mesquita's Portfolio"
 theme: hugo-profile
 
@@ -164,7 +164,7 @@ languages:
   en:
     weight: 1
     disabled: false
-    languageCode: en-US
+    languageCode: en
     languageDirection: ltr
     languageName: English
     title: Daniel Mesquita's Portfolio
@@ -412,7 +412,7 @@ languages:
     weight: 2
     contentDir: content/pt
     disabled: false
-    languageCode: pt-BR
+    languageCode: pt
     languageDirection: ltr
     languageName: Portuguese
     title: Portfólio | Daniel Mesquita

@@ -5,4 +5,4 @@ default: dev
 dev:
 	hugo server --noHTTPCache
 build:
-	hugo --gc --minify
+	rm -rf public && hugo --gc --minify
