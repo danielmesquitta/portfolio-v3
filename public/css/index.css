@@ -621,3 +621,21 @@ a[aria-label="github"] svg {
   text-align: left !important;
   padding-left: 1rem !important;
 }
+
+@media all and (min-width: 768px) {
+  .nav-item:last-of-type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-item:last-of-type > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  button#theme-toggle {
+    font-size: 0;
+  }
+}
