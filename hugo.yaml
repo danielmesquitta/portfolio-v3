@@ -162,7 +162,6 @@ defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 languages:
   en:
-    baseURL: "https://en.danielmesquitta.com"
     weight: 1
     disabled: false
     languageCode: en-US
@@ -410,7 +409,6 @@ languages:
       #  <script type="text/javascript"><!-- any script here --></script>
 
   pt:
-    baseURL: "https://pt.danielmesquitta.com"
     weight: 2
     contentDir: content/pt
     disabled: false
