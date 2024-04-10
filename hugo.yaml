@@ -1,6 +1,7 @@
 baseURL: "https://danielmesquitta.com/"
 languageCode: "en"
 title: "Daniel Mesquita's Portfolio"
+description: Software Engineer (Full-stack developer) specialized in Go (Golang), Python, Node.js, Typescript, Javascript, React & React Native
 theme: hugo-profile
 
 outputs:
