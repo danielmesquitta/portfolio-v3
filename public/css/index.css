@@ -639,3 +639,13 @@ a[aria-label="github"] svg {
     font-size: 0;
   }
 }
+
+.fullscreen {
+  position: fixed; /* Make it stick to the same place on the screen */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; /* Adjust this as needed */
+  z-index: 999; /* Ensure it's above other content */
+}

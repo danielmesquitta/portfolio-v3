@@ -329,7 +329,7 @@ languages:
 
               🌿 <b>EVEREST</b>
 
-              Using our expertise in development, we've created a system that generates reports that shows the nutritional balance of each nutrient and gives actionable steps for optimizing plant productivity.
+              Using our expertise in development and multiple meetings with agronomists, we've created a system for the company <a href="https://primeagro.com.br/" target="__blank">Prime agro</a> that generates reports that shows the nutritional balance of each nutrient and gives actionable steps for optimizing plant productivity.
 
               <br/>
               <div class="container">
@@ -501,9 +501,9 @@ languages:
             featuredLink:
               enable: false
             content: |
-              I am currently working as a software developer at Moss Earth. I have concentrated on enhancing and developing systems and microservices to support our mission of leveraging technology for environmental conservation.
+              Eu atualmente trabalho como desenvolvedor de software na Moss Earth. Tenho me concentrado em aprimorar e desenvolver sistemas e microsserviços para apoiar nossa missão de utilizar a tecnologia para a conservação ambiental.
 
-              My contributions have been crucial in improving the efficiency of APIs for processing millions of daily requests, automating processes with external APIs from Pipefy, HubSpot, Slack, and Google Docs, significantly reducing weekly work hours in other departments, and promoting a more efficient systems and work environment.
+              Minhas contribuições têm sido cruciais para melhorar a eficiência das APIs para processar milhões de requisições diárias, automatizar processos com APIs externas do Pipefy, HubSpot, Linte, Slack, Google Docs e Sheets, reduzindo significativamente as horas de trabalho semanais em outros departamentos e promovendo um ambiente de sistemas e trabalho mais eficiente.
 
               <br/>
               <div class="container">
@@ -541,13 +541,13 @@ languages:
               enable: false
               url: "https://example.com"
             content: |
-              Flow Lab is a digital agency that develops custom software for companies in various industries. I was responsible for developing and maintaining systems for clients in the healthcare, agriculture, and civil construction sectors.
+              Flow Lab é uma agência digital que desenvolve software personalizado para empresas de várias indústrias. Eu era responsável pelo desenvolvimento e manutenção de sistemas para clientes nos setores de saúde, agricultura e construção civil.
 
-              Some examples of my work include:
+              Alguns exemplos do meu trabalho incluem:
 
               🏗️ <b>BOMDIA</b>
 
-              I was the Lead Back-End Developer at BomDia. Our solution transcends traditional, paper-based methods by providing a modern, digital alternative. The platform includes user and project management, financial control, a mobile app for check-ins and check-outs, report generation and much more.
+              Fui o Desenvolvedor Líder de Back-End no BomDia. Nossa solução transcende os métodos tradicionais baseados em papel, oferecendo uma alternativa moderna e digital. A plataforma inclui gestão de usuários e projetos, controle financeiro, um app mobile para registros de entrada e saída, geração de relatórios e muito mais.
 
               <br/>
               <div class="container">
@@ -581,7 +581,7 @@ languages:
 
               🩺 <b>MEDFY</b>
 
-              MEDFY is a system that allows attendants in the <a href="https://www.umcenter.com.br/" target="__blank">UMC hospital</a> locate available doctors through specialties, clinics, and compatible health insurance options.
+              MEDFY é um sistema que permite aos atendentes no <a href="https://www.umcenter.com.br/" target="__blank">hospital UMC</a> localizar médicos disponíveis por especialidades, clínicas e opções de convênio compatíveis.
 
               <br/>
               <div class="container">
@@ -598,7 +598,7 @@ languages:
 
               🌿 <b>EVEREST</b>
 
-              Using our expertise in development, we've created a system that generates reports that shows the nutritional balance of each nutrient and gives actionable steps for optimizing plant productivity.
+              Com base em nossa experiência e consecutivas reuniões com engenheiros agrônomos, desenvolvemos um sistema para a empresa <a href="https://primeagro.com.br/" target="__blank">Prime agro</a>, capaz de gerar relatórios que demonstram o equilíbrio nutricional de plantas e fornecem orientações práticas e produtos para otimizar a produtividade.
 
               <br/>
               <div class="container">
