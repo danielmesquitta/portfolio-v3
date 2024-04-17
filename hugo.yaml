@@ -347,11 +347,11 @@ languages:
       education:
         # title: "Custom Name"
         items:
-          - title: "Bachelor of System Analysis and Development"
+          - title: "Associate Degree in System Analysis and Development"
             school:
               name: "University Estácio de Sá, Uberlândia - MG, Brazil"
               url: "https://estacio.br/a-estacio/sobre-a-estacio"
-            date: "2021 - 2025"
+            date: "2023 - 2025"
 
       # Achievements
       achievements:
@@ -617,7 +617,7 @@ languages:
         title: "Educação"
         index: false
         items:
-          - title: "Análise e Desenvolvimento de Sistemas"
+          - title: "Tecnólogo em Análise e Desenvolvimento de Sistemas"
             school:
               name: "Universidade Estácio de Sá, Uberlândia - MG, Brasil"
               url: "https://estacio.br/a-estacio/sobre-a-estacio"
