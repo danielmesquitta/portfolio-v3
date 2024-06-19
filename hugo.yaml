@@ -1,7 +1,7 @@
 baseURL: "https://danielmesquitta.com/"
 languageCode: "en"
 title: "Daniel Mesquita's Portfolio"
-description: Software Engineer (Full-stack developer) specialized in Go (Golang), Python, Node.js, Typescript, Javascript, React & React Native
+description: Software Engineer (Back-end developer) specialized in Go (Golang), Python, Node.js, Typescript, Javascript, React & React Native
 theme: hugo-profile
 
 outputs:
@@ -190,7 +190,7 @@ languages:
     title: Daniel Mesquita's Portfolio
     params:
       title: "Daniel Mesquita's Portfolio"
-      description: Software Engineer (Full-stack developer) specialized in Go (Golang), Python, Node.js, Typescript, Javascript, React & React Native
+      description: Software Engineer (Backend developer) specialized in Go (Golang), Python, Node.js, Typescript, Javascript, React & React Native
 
       # Hero
       hero:
@@ -226,7 +226,7 @@ languages:
       experience:
         title: "Work experience"
         items:
-          - job: "Full-stack Software Developer"
+          - job: "Back-end Software Developer"
             company: "Moss Earth"
             companyUrl: "https://moss.earth/"
             date: "Sep 2023 - present"
@@ -456,7 +456,7 @@ languages:
     title: Portfólio | Daniel Mesquita
     params:
       title: "Portfólio | Daniel Mesquita"
-      description: Engenheiro de Software (Desenvolvedor Full-stack) especializado em Go (Golang), Python, Node.js, Typescript, Javascript, React e React Native
+      description: Engenheiro de Software (Desenvolvedor Back-end) especializado em Go (Golang), Python, Node.js, Typescript, Javascript, React e React Native
 
       # Hero
       hero:
@@ -494,7 +494,7 @@ languages:
       experience:
         title: "Experiência de trabalho"
         items:
-          - job: "Desenvolvedor de Software Full-stack"
+          - job: "Desenvolvedor de Software Back-end"
             company: "Moss Earth"
             companyUrl: "https://moss.earth/"
             date: "Set 2023 - presente"
