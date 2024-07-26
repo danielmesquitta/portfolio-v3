@@ -649,3 +649,34 @@ a[aria-label="github"] svg {
   object-fit: cover; /* Adjust this as needed */
   z-index: 999; /* Ensure it's above other content */
 }
+
+.zoomable {
+  opacity: 1 !important;
+  cursor: pointer;
+}
+
+.zoomed-image {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Adjust scale as needed */
+  z-index: 9999999;
+  max-width: 70vw;
+  max-height: 80vh;
+  object-fit: contain;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999999;
+  display: block;
+}
+
+@media all and (max-width: 768px) {
+  .zoomed-image {
+    max-width: 90vw;
+  }
+}

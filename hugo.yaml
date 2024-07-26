@@ -241,26 +241,26 @@ languages:
               <div class="container">
                 <div class="row align-items-center">
                   <div class="col">
-                    <img src="/images/experience/moss-1.webp" width="100%" />
+                    <img src="/images/experience/moss-1.webp" class="zoomable" width="100%" />
                   </div>
                   <div class="col">
-                    <img src="/images/experience/moss-2.webp" width="100%" />
-                  </div>
-                </div>
-                <div class="row align-items-center">
-                  <div class="col">
-                    <img src="/images/experience/moss-3.webp" width="100%" />
-                  </div>
-                  <div class="col">
-                    <img src="/images/experience/moss-4.webp" width="100%" />
+                    <img src="/images/experience/moss-2.webp" class="zoomable" width="100%" />
                   </div>
                 </div>
                 <div class="row align-items-center">
                   <div class="col">
-                    <img src="/images/experience/moss-5.webp" width="100%" />
+                    <img src="/images/experience/moss-3.webp" class="zoomable" width="100%" />
                   </div>
                   <div class="col">
-                    <img src="/images/experience/moss-6.webp" width="100%" />
+                    <img src="/images/experience/moss-4.webp" class="zoomable" width="100%" />
+                  </div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col">
+                    <img src="/images/experience/moss-5.webp" class="zoomable" width="100%" />
+                  </div>
+                  <div class="col">
+                    <img src="/images/experience/moss-6.webp" class="zoomable" width="100%" />
                   </div>
                 </div>
               </div>
@@ -284,10 +284,10 @@ languages:
               <div class="container">
                 <div class="row align-items-center">
                   <div class="col">
-                    <img width="100%" src="/images/experience/bomdia-1.webp" />
+                    <img width="100%" src="/images/experience/bomdia-1.webp" class="zoomable" />
                   </div>
                   <div class="col">
-                    <img src="/images/experience/bomdia-2.webp" width="100%" />
+                    <img src="/images/experience/bomdia-2.webp" width="100%" class="zoomable" />
                   </div>
                 </div>
                 <div class="row align-items-center">
@@ -295,16 +295,16 @@ languages:
                     <div class="container">
                       <div class="row align-items-center">
                         <div class="col">
-                          <img src="/images/experience/bomdia-5.webp" width="100%" />
+                          <img src="/images/experience/bomdia-5.webp" width="100%" class="zoomable" />
                         </div>
                         <div class="col">
-                          <img src="/images/experience/bomdia-6.webp" width="100%" />
+                          <img src="/images/experience/bomdia-6.webp" width="100%" class="zoomable" />
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col">
-                    <img src="/images/experience/bomdia-3.webp" width="100%" />
+                    <img src="/images/experience/bomdia-3.webp" width="100%" class="zoomable" />
                   </div>
                 </div>
               </div>
@@ -318,10 +318,10 @@ languages:
               <div class="container">
                 <div class="row align-items-center">
                   <div class="col">
-                    <img width="100%" src="/images/experience/umc-system-1.webp" />
+                    <img width="100%" src="/images/experience/umc-system-1.webp" class="zoomable" />
                   </div>
                   <div class="col">
-                    <img width="100%" src="/images/experience/umc-system-2.webp" />
+                    <img width="100%" src="/images/experience/umc-system-2.webp" class="zoomable" />
                   </div>
                 </div>
               </div>
@@ -335,10 +335,10 @@ languages:
               <div class="container">
                 <div class="row align-items-center">
                   <div class="col">
-                    <img src="/images/experience/everest-2.webp" width="100%" />
+                    <img src="/images/experience/everest-2.webp" width="100%" class="zoomable" />
                   </div>
                   <div class="col">
-                    <img src="/images/experience/everest-1.webp" width="100%" />
+                    <img src="/images/experience/everest-1.webp" width="100%" class="zoomable" />
                   </div>
                 </div>
               </div>
@@ -509,26 +509,26 @@ languages:
               <div class="container">
                 <div class="row align-items-center">
                   <div class="col">
-                    <img src="/images/experience/moss-1.webp" width="100%" />
+                    <img src="/images/experience/moss-1.webp" width="100%" class="zoomable" />
                   </div>
                   <div class="col">
-                    <img src="/images/experience/moss-2.webp" width="100%" />
-                  </div>
-                </div>
-                <div class="row align-items-center">
-                  <div class="col">
-                    <img src="/images/experience/moss-3.webp" width="100%" />
-                  </div>
-                  <div class="col">
-                    <img src="/images/experience/moss-4.webp" width="100%" />
+                    <img src="/images/experience/moss-2.webp" width="100%" class="zoomable" />
                   </div>
                 </div>
                 <div class="row align-items-center">
                   <div class="col">
-                    <img src="/images/experience/moss-5.webp" width="100%" />
+                    <img src="/images/experience/moss-3.webp" width="100%" class="zoomable" />
                   </div>
                   <div class="col">
-                    <img src="/images/experience/moss-6.webp" width="100%" />
+                    <img src="/images/experience/moss-4.webp" width="100%" class="zoomable" />
+                  </div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col">
+                    <img src="/images/experience/moss-5.webp" width="100%" class="zoomable" />
+                  </div>
+                  <div class="col">
+                    <img src="/images/experience/moss-6.webp" width="100%" class="zoomable" />
                   </div>
                 </div>
               </div>
@@ -553,10 +553,10 @@ languages:
               <div class="container">
                 <div class="row align-items-center">
                   <div class="col">
-                    <img width="100%" src="/images/experience/bomdia-1.webp" />
+                    <img width="100%" src="/images/experience/bomdia-1.webp" class="zoomable" />
                   </div>
                   <div class="col">
-                    <img src="/images/experience/bomdia-2.webp" width="100%" />
+                    <img src="/images/experience/bomdia-2.webp" width="100%" class="zoomable" />
                   </div>
                 </div>
                 <div class="row align-items-center">
@@ -564,16 +564,16 @@ languages:
                     <div class="container">
                       <div class="row align-items-center">
                         <div class="col">
-                          <img src="/images/experience/bomdia-5.webp" width="100%" />
+                          <img src="/images/experience/bomdia-5.webp" width="100%" class="zoomable" />
                         </div>
                         <div class="col">
-                          <img src="/images/experience/bomdia-6.webp" width="100%" />
+                          <img src="/images/experience/bomdia-6.webp" width="100%" class="zoomable" />
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col">
-                    <img src="/images/experience/bomdia-3.webp" width="100%" />
+                    <img src="/images/experience/bomdia-3.webp" width="100%" class="zoomable" />
                   </div>
                 </div>
               </div>
@@ -587,10 +587,10 @@ languages:
               <div class="container">
                 <div class="row align-items-center">
                   <div class="col">
-                    <img width="100%" src="/images/experience/umc-system-1.webp" />
+                    <img width="100%" src="/images/experience/umc-system-1.webp" class="zoomable" />
                   </div>
                   <div class="col">
-                    <img width="100%" src="/images/experience/umc-system-2.webp" />
+                    <img width="100%" src="/images/experience/umc-system-2.webp" class="zoomable" />
                   </div>
                 </div>
               </div>
@@ -604,10 +604,10 @@ languages:
               <div class="container">
                 <div class="row align-items-center">
                   <div class="col">
-                    <img src="/images/experience/everest-2.webp" width="100%" />
+                    <img src="/images/experience/everest-2.webp" width="100%" class="zoomable" />
                   </div>
                   <div class="col">
-                    <img src="/images/experience/everest-1.webp" width="100%" />
+                    <img src="/images/experience/everest-1.webp" width="100%" class="zoomable" />
                   </div>
                 </div>
               </div>
