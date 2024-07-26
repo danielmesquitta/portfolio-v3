@@ -347,11 +347,16 @@ languages:
       education:
         # title: "Custom Name"
         items:
-          - title: "Associate Degree in System Analysis and Development"
+          - title: "Bachelor Degree in Computer Science"
             school:
               name: "University Estácio de Sá, Uberlândia - MG, Brazil"
               url: "https://estacio.br/a-estacio/sobre-a-estacio"
             date: "2023 - 2025"
+          - title: "Bachelor Degree in Computer Science"
+            school:
+              name: "Federal University of Uberlândia (UFU), Uberlândia - MG, Brazil"
+              url: "https://ufu.br/"
+            date: "2021 - 2022"
 
       # Achievements
       achievements:
@@ -621,7 +626,12 @@ languages:
             school:
               name: "Universidade Estácio de Sá, Uberlândia - MG, Brasil"
               url: "https://estacio.br/a-estacio/sobre-a-estacio"
-            date: "2021 - 2025"
+            date: "2023 - 2025"
+          - title: "Bacharelado em Sistemas de Informação"
+            school:
+              name: "Universidade Federal de Uberlândia (UFU), Uberlândia - MG, Brasil"
+              url: "https://ufu.br"
+            date: "2021 - 2022"
 
       # Achievements
       achievements:
