@@ -179,7 +179,7 @@ params:
   #  <script type="text/javascript"><!-- any script here --></script>
 
 defaultContentLanguage: en
-defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: false
 languages:
   en:
     weight: 1
@@ -708,5 +708,9 @@ languages:
         articleList: "2 de Jan de 2006"
         articleRecent: "2 de Jan de 2006"
 
-      #customScripts: -| # You can add custom scripts which will be added before </body> tag
-      #  <script type="text/javascript"><!-- any script here --></script>
+      customScripts: -|
+        <script type="text/javascript">
+          document.querySelectorAll('.nav-link').forEach((el) => {
+            el.href = el.href.replace('/#', '/pt/#');
+          })
+        </script>
