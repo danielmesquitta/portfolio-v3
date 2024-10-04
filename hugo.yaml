@@ -227,13 +227,44 @@ languages:
         title: "Work experience"
         items:
           - job: "Back-end Software Developer"
-            company: "Moss Earth"
-            companyUrl: "https://moss.earth/"
-            date: "Sep 2023 - present"
+            company: "Sword Health"
+            companyUrl: "https://swordhealth.com/"
+            date: "Sep 2024 - present"
             featuredLink:
               enable: false
             content: |
-              I am currently working as a software developer at Moss Earth. I have concentrated on enhancing and developing systems and microservices to support our mission of leveraging technology for environmental conservation.
+              I'm currently working at Sword Health through outsourcing by <a href="https://www.bee-eng.pt/" target="__blank" >Bee Engineering</a>, where I contribute to the development of innovative digital health solutions.
+
+              I've been building and maintaining APIs and microservices to support both our mobile app for the patients (available on <a href="https://play.google.com/store/apps/details?id=com.swordhealth.guarda" target="__blank">Android</a> and <a href="https://apps.apple.com/us/app/sword-health/id1468523447" target="__blank">IOS</a>) and our web platform for the doctors.
+
+              <br/>
+              <div class="container">
+                <div class="row align-items-center">
+                  <div class="col">
+                    <img src="/images/experience/sword-1.png" class="zoomable" width="100%" />
+                  </div>
+                  <div class="col">
+                    <img src="/images/experience/sword-2.png" class="zoomable" width="100%" />
+                  </div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col">
+                    <img src="/images/experience/sword-3.png" class="zoomable" width="100%" />
+                  </div>
+                  <div class="col">
+                    <img src="/images/experience/sword-4.png" class="zoomable" width="100%" />
+                  </div>
+                </div>
+              </div>
+
+          - job: "Back-end Software Developer"
+            company: "Moss Earth"
+            companyUrl: "https://moss.earth/"
+            date: "Sep 2023 - 2024"
+            featuredLink:
+              enable: false
+            content: |
+              I've worked for over an year as a software developer at Moss Earth. I have concentrated on enhancing and developing systems and microservices to support our mission of leveraging technology for environmental conservation.
 
               My contributions have been crucial in improving the efficiency of APIs for processing millions of daily requests, automating processes with external APIs from Pipefy, HubSpot, Slack, and Google Docs, significantly reducing weekly work hours in other departments, and promoting a more efficient systems and work environment.
 
@@ -244,12 +275,12 @@ languages:
                     <img src="/images/experience/moss-1.webp" class="zoomable" width="100%" />
                   </div>
                   <div class="col">
-                    <img src="/images/experience/moss-2.webp" class="zoomable" width="100%" />
+                    <img src="/images/experience/moss-2.gif" class="zoomable" width="100%" />
                   </div>
                 </div>
                 <div class="row align-items-center">
                   <div class="col">
-                    <img src="/images/experience/moss-3.webp" class="zoomable" width="100%" />
+                    <img src="/images/experience/moss-3.png" class="zoomable" width="100%" />
                   </div>
                   <div class="col">
                     <img src="/images/experience/moss-4.webp" class="zoomable" width="100%" />
@@ -500,13 +531,44 @@ languages:
         title: "Experiência de trabalho"
         items:
           - job: "Desenvolvedor de Software Back-end"
-            company: "Moss Earth"
-            companyUrl: "https://moss.earth/"
-            date: "Set 2023 - presente"
+            company: "Sword Health"
+            companyUrl: "https://swordhealth.com/"
+            date: "Sep 2024 - presente"
             featuredLink:
               enable: false
             content: |
-              Eu atualmente trabalho como desenvolvedor de software na Moss Earth. Tenho me concentrado em aprimorar e desenvolver sistemas e microsserviços para apoiar nossa missão de utilizar a tecnologia para a conservação ambiental.
+              Atualmente, estou trabalhando na Sword Health por meio de outsourcing pela <a href="https://www.bee-eng.pt/" target="__blank" >Bee Engineering</a>, onde contribuo para o desenvolvimento de soluções inovadoras de saúde digital.
+
+              Tenho trabalhado na construção e manutenção de APIs e microsserviços para dar suporte tanto ao nosso aplicativo móvel para pacientes (disponível no <a href="https://play.google.com/store/apps/details?id=com.swordhealth.guarda" target="__blank">Android</a> e <a href="https://apps.apple.com/us/app/sword-health/id1468523447" target="__blank">iOS</a>) quanto à nossa plataforma web para os médicos.
+
+              <br/>
+              <div class="container">
+                <div class="row align-items-center">
+                  <div class="col">
+                    <img src="/images/experience/sword-1.png" class="zoomable" width="100%" />
+                  </div>
+                  <div class="col">
+                    <img src="/images/experience/sword-2.png" class="zoomable" width="100%" />
+                  </div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col">
+                    <img src="/images/experience/sword-3.png" class="zoomable" width="100%" />
+                  </div>
+                  <div class="col">
+                    <img src="/images/experience/sword-4.png" class="zoomable" width="100%" />
+                  </div>
+                </div>
+              </div>
+
+          - job: "Desenvolvedor de Software Back-end"
+            company: "Moss Earth"
+            companyUrl: "https://moss.earth/"
+            date: "Set 2023 - 2024"
+            featuredLink:
+              enable: false
+            content: |
+              Eu trabalhei como desenvolvedor de software na Moss Earth por mais de um ano, me concentrando em aprimorar e desenvolver sistemas e microsserviços para apoiar nossa missão de utilizar a tecnologia para a conservação ambiental.
 
               Minhas contribuições têm sido cruciais para melhorar a eficiência das APIs para processar milhões de requisições diárias, automatizar processos com APIs externas do Pipefy, HubSpot, Linte, Slack, Google Docs e Sheets, reduzindo significativamente as horas de trabalho semanais em outros departamentos e promovendo um ambiente de sistemas e trabalho mais eficiente.
 
@@ -517,12 +579,12 @@ languages:
                     <img src="/images/experience/moss-1.webp" width="100%" class="zoomable" />
                   </div>
                   <div class="col">
-                    <img src="/images/experience/moss-2.webp" width="100%" class="zoomable" />
+                    <img src="/images/experience/moss-2.gif" width="100%" class="zoomable" />
                   </div>
                 </div>
                 <div class="row align-items-center">
                   <div class="col">
-                    <img src="/images/experience/moss-3.webp" width="100%" class="zoomable" />
+                    <img src="/images/experience/moss-3.png" width="100%" class="zoomable" />
                   </div>
                   <div class="col">
                     <img src="/images/experience/moss-4.webp" width="100%" class="zoomable" />
@@ -710,7 +772,7 @@ languages:
 
       customScripts: -|
         <script type="text/javascript">
-          document.querySelectorAll('.nav-link').forEach((el) => {
-            el.href = el.href.replace('/#', '/pt/#');
-          })
+        document.querySelectorAll('.nav-link').forEach((el) => {
+        el.href = el.href.replace('/#', '/pt/#');
+        })
         </script>
