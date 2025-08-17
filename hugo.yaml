@@ -113,7 +113,7 @@ params:
   hero:
     enable: true
     intro: ""
-    image: /images/hero-2.jpg
+    image: /images/hero.jpg
     bottomImage:
       enable: true
     roundImage: true
