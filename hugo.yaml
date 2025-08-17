@@ -13,7 +13,8 @@ outputs:
     - "HTML"
     - "RSS"
 
-Paginate: 3
+pagination:
+  pagerSize: 3
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
 googleAnalytics: G-2JLV73MVB3
@@ -112,7 +113,7 @@ params:
   hero:
     enable: true
     intro: ""
-    image: /images/hero.png
+    image: /images/hero-2.jpg
     bottomImage:
       enable: true
     roundImage: true
@@ -204,7 +205,7 @@ languages:
       about:
         title: "About Me"
         content: |
-          I am a Developer with over 4 years of work experience dedicated to build software that exceed expectations.
+          I am a Developer with over 5 years of work experience dedicated to build software that exceed expectations.
           <br/><br/>
 
         skills:
@@ -219,7 +220,7 @@ languages:
             - "AWS & GCP"
             - "React / React Native"
             - "Next.js"
-            - "Unit / integration / e2e testing"
+            - "Unit / integration / e2e / snapshot testing"
             - "Git & Version control"
 
       # Experience
@@ -227,15 +228,42 @@ languages:
         title: "Work experience"
         items:
           - job: "Back-end Software Developer"
-            company: "Sword Health"
-            companyUrl: "https://swordhealth.com/"
-            date: "Sep 2024 - present"
+            company: "Reddit"
+            companyUrl: "https://redditinc.com/"
+            date: "2025 - present"
             featuredLink:
               enable: false
             content: |
-              I'm currently working at Sword Health through outsourcing by <a href="https://www.bee-eng.pt/" target="__blank" >Bee Engineering</a>, where I contribute to the development of innovative digital health solutions.
+              I’m currently working at Reddit through outsourcing by <a href="https://www.turing.com/" target="__blank" >Turing</a>. I’ve been migrating hot paths from Python to Go, halving latency and boosting efficiency from 11 → 160 requests/core (~15×) for features used by 100M+ daily users. I ship safely with Tap Compare, shadow traffic, and rolling releases monitored in Grafana, and I write design docs to share the how/why.
 
-              I've been building and maintaining APIs and microservices to support both our mobile app for the patients (available on <a href="https://play.google.com/store/apps/details?id=com.swordhealth.guarda" target="__blank">Android</a> and <a href="https://apps.apple.com/us/app/sword-health/id1468523447" target="__blank">IOS</a>) and our web platform for the doctors.
+              <br/>
+              <div class="container">
+                <div class="row align-items-center">
+                  <div class="col" style="margin-bottom: 16px;">
+                    <img src="/images/experience/reddit-1.png" class="zoomable" width="100%" />
+                  </div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col">
+                    <img src="/images/experience/reddit-3.webp" class="zoomable" width="100%" />
+                  </div>
+                  <div class="col">
+                    <img src="/images/experience/reddit-4.webp" class="zoomable" width="100%" />
+                  </div>
+                  <div class="col">
+                    <img src="/images/experience/reddit-5.webp" class="zoomable" width="100%" />
+                  </div>
+                </div>
+              </div>
+
+          - job: "Back-end Software Developer"
+            company: "Sword Health"
+            companyUrl: "https://swordhealth.com/"
+            date: "2024 - 2025"
+            featuredLink:
+              enable: false
+            content: |
+              I worked as a contractor for Sword Health via <a href="https://www.bee-eng.pt/en/" target="__blank" >Bee Engineering</a>. I built and maintained microservices and REST/gRPC APIs on Google Cloud (Cloud Functions, Pub/Sub) powering the clinician web platform and the patient mobile app (100K+ downloads). I used TDD to reach high test coverage and integrated automated code analysis, linting, and reviews into CI/CD to reduce regressions and recurring bugs.
 
               <br/>
               <div class="container">
@@ -260,7 +288,7 @@ languages:
           - job: "Back-end Software Developer"
             company: "Moss Earth"
             companyUrl: "https://moss.earth/"
-            date: "Sep 2023 - 2024"
+            date: "2023 - 2024"
             featuredLink:
               enable: false
             content: |
@@ -299,7 +327,7 @@ languages:
           - job: "Full-stack Software Developer"
             company: "Flow lab"
             companyUrl: "https://www.flowlabdigital.com.br/"
-            date: "Oct 2020 - Sep 2023"
+            date: "2020 - 2023"
             featuredLink:
               enable: false
             content: |
@@ -402,39 +430,45 @@ languages:
       projects:
         title: "Featured Posts"
         items:
-          - title: "Project Ideas: Go Programming Language"
-            content: Are you a Go enthusiast looking for your next coding adventure? Look no further! Here are some intriguing Golang project ideas to sharpen your skills and make an impact on the next person who looks at your portfolio.
-            image: /images/posts/project-ideas.png
+          - title: "What I wish I'd known before structuring Go backends"
+            content: Maintainable, scalable Go starts with clear patterns and a consistent structure, use golang-standards/project-layout plus Robert C. Martin’s Clean Code to get there.
+            image: /images/posts/structure.jpg
             featured:
               name: See more
-              link: https://www.linkedin.com/feed/update/urn:li:activity:7112752743693324289/
+              link: https://www.linkedin.com/posts/danielmesquitta_how-i-structure-my-golang-projects-activity-7322590524886925314-tdnD
             badges:
-              - "Go"
+              - "Golang"
               - "Back-end"
-              - "Portfolio"
+              - "Architecture"
+              - "Project Layout"
+              - "Clean Code"
 
-          - title: Goroutines Management with Go Context
-            content: Context is a powerful tool in the Go programming language, helping you manage concurrency, timeouts, and cancellation effectively. It's crucial for building robust and efficient applications.
-            image: /images/posts/goroutines.png
+          - title: Dependency Injection with Google Wire
+            content: Go with Google Wire is a powerful combination for dependency injection (DI) that eliminates the need for manual wiring, allowing you to focus on your business logic.
+            image: /images/posts/di.jpg
             featured:
               name: See more
-              link: https://www.linkedin.com/feed/update/urn:li:activity:7110578415270793217/
+              link: https://www.linkedin.com/posts/danielmesquitta_dependency-injection-with-google-wire-activity-7266782741013168129--frG
             badges:
-              - "Go"
+              - "Golang"
               - "Back-end"
-              - "Concurrency"
+              - "Dependency Injection"
+              - "DI"
+              - "Unit Testing"
+              - "Google Wire"
 
-          - title: Don't use ORM's with Go, do this instead
-            content: ORMs can sometimes introduce unnecessary complexity and performance bottlenecks. But there is a solution! SQLC lets you write SQL queries in .sql files, converting it to Go code, keeping things native, efficient and safe.
-            image: /images/posts/orms.png
+          - title: Microservices and Events Made Easy for Go Devs
+            content: It's time to use microservices and event-driven architectures. The good news is that Go with Watermill makes this significantly easier than you might have thought.
+            image: /images/posts/events.jpg
             featured:
               name: See more
-              link: https://www.linkedin.com/feed/update/urn:li:activity:7099344430125494272/
+              link: https://www.linkedin.com/posts/danielmesquitta_microservices-and-events-made-easy-for-go-activity-7330200634379472897-P5dS
             badges:
-              - "Go"
+              - "Golang"
               - "Back-end"
-              - "SQL"
-              - "ORM"
+              - "Microservices"
+              - "Events"
+              - "Watermill"
 
       #Contact
       contact:
@@ -507,7 +541,7 @@ languages:
         enable: true
         title: "Sobre mim"
         content: |
-          Eu sou um Desenvolvedor com mais de 4 anos de experiência profissional dedicados a construir software que exceda as expectativas.
+          Eu sou um Desenvolvedor com mais de 5 anos de experiência profissional dedicados a construir software que exceda as expectativas.
           <br/><br/>
 
         skills:
@@ -523,7 +557,7 @@ languages:
             - "AWS e GCP"
             - "React / React Native"
             - "Next.js"
-            - "Unit / integration / e2e testing"
+            - "Unit / integration / e2e / snapshot testing"
             - "Git e Controle de versionamento"
 
       # Experience
@@ -531,15 +565,42 @@ languages:
         title: "Experiência de trabalho"
         items:
           - job: "Desenvolvedor de Software Back-end"
-            company: "Sword Health"
-            companyUrl: "https://swordhealth.com/"
-            date: "Sep 2024 - presente"
+            company: "Reddit"
+            companyUrl: "https://redditinc.com/"
+            date: "2025 - presente"
             featuredLink:
               enable: false
             content: |
-              Atualmente, estou trabalhando na Sword Health por meio de outsourcing pela <a href="https://www.bee-eng.pt/" target="__blank" >Bee Engineering</a>, onde contribuo para o desenvolvimento de soluções inovadoras de saúde digital.
+              Atualmente, estou trabalhando no Reddit por meio de outsourcing pela <a href="https://www.turing.com/" target="__blank" >Turing</a>. Tenho migrado hot paths de Python para Go, reduzindo a latência pela metade e aumentando a eficiência de 11 → 160 requisições/core (~15×) para recursos usados por 100M+ usuários diários. Faço deploy com segurança usando Tap Compare, shadow traffic e releases graduais monitoradas no Grafana, e escrevo design docs para compartilhar o como e o porquê.
 
-              Tenho trabalhado na construção e manutenção de APIs e microsserviços para dar suporte tanto ao nosso aplicativo móvel para pacientes (disponível no <a href="https://play.google.com/store/apps/details?id=com.swordhealth.guarda" target="__blank">Android</a> e <a href="https://apps.apple.com/us/app/sword-health/id1468523447" target="__blank">iOS</a>) quanto à nossa plataforma web para os médicos.
+              <br/>
+              <div class="container">
+                <div class="row align-items-center">
+                  <div class="col" style="margin-bottom: 16px;">
+                    <img src="/images/experience/reddit-1.png" class="zoomable" width="100%" />
+                  </div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col">
+                    <img src="/images/experience/reddit-3.webp" class="zoomable" width="100%" />
+                  </div>
+                  <div class="col">
+                    <img src="/images/experience/reddit-4.webp" class="zoomable" width="100%" />
+                  </div>
+                  <div class="col">
+                    <img src="/images/experience/reddit-5.webp" class="zoomable" width="100%" />
+                  </div>
+                </div>
+              </div>
+
+          - job: "Desenvolvedor de Software Back-end"
+            company: "Sword Health"
+            companyUrl: "https://swordhealth.com/"
+            date: "2024 - 2025"
+            featuredLink:
+              enable: false
+            content: |
+              Trabalhei como contratado para a Sword Health via <a href="https://www.bee-eng.pt/" target="__blank" >Bee Engineering</a>. Construí e mantive microsserviços e APIs REST/gRPC no Google Cloud (Cloud Functions, Pub/Sub) para a plataforma web de clínicos e o aplicativo móvel de pacientes (100K+ downloads). Usei TDD para alcançar alta cobertura de testes e integrei análise de código automatizada, linting e revisões ao CI/CD para reduzir regressões e bugs recorrentes.
 
               <br/>
               <div class="container">
@@ -711,39 +772,45 @@ languages:
         enable: true
         title: "Postagens em destaque"
         items:
-          - title: "Ideias de projeto na linguagem de programação Go"
-            content: Você é um entusiasta do Go procurando sua próxima aventura? Não precisa mais sofrer! Aqui estão algumas ideias intrigantes de projetos em Golang para aprimorar suas habilidades e causar impacto na próxima pessoa que olhar seu portfólio.
-            image: /images/posts/project-ideas.png
+          - title: "O que eu gostaria de ter sabido antes de estruturar back-ends em Go"
+            content: Construir aplicações em Go que sejam escaláveis e fáceis de manter começa com padrões claros e uma estrutura de projeto consistente. Combinando o golang-standards/project-layout com os princípios do Clean Code de Robert C. Martin, fica muito mais simples alcançar esses objetivos.
+            image: /images/posts/structure.jpg
             featured:
               name: Ver mais
-              link: https://www.linkedin.com/feed/update/urn:li:activity:7112752743693324289/
+              link: https://www.linkedin.com/posts/danielmesquitta_how-i-structure-my-golang-projects-activity-7322590524886925314-tdnD
             badges:
               - "Go"
               - "Back-end"
-              - "Portfólio"
+              - "Arquitetura"
+              - "Estrutura de Projeto"
+              - "Clean Code"
 
-          - title: Gerenciamento de goroutines com Go Context
-            content: Contexto é uma ferramenta poderosa na linguagem de programação Go, ajudando você a gerenciar concorrência, timeouts e cancelamentos de forma eficaz. É crucial para construir aplicações robustas e eficientes.
-            image: /images/posts/goroutines.png
+          - title: "Injeção de Dependências com Google Wire"
+            content: Você trabalha com Golang e busca uma forma limpa e sustentável de gerenciar dependências? Use o Google Wire, uma poderosa ferramenta de injeção de dependências (DI) que elimina a necessidade de wiring manual, permitindo que você foque na lógica de negócio.
+            image: /images/posts/di.jpg
             featured:
               name: Ver mais
-              link: https://www.linkedin.com/feed/update/urn:li:activity:7110578415270793217/
+              link: https://www.linkedin.com/posts/danielmesquitta_dependency-injection-with-google-wire-activity-7266782741013168129--frG
             badges:
               - "Go"
               - "Back-end"
-              - "Concorrência"
+              - "Injeção de Dependências"
+              - "DI"
+              - "Testes unitários"
+              - "Google Wire"
 
-          - title: Não use ORMs com Go, faça isso no lugar
-            content: ORMs podem às vezes introduzir complexidade desnecessária e gargalos de desempenho. Mas há uma solução! SQLC permite que você escreva consultas SQL em arquivos .sql, convertendo-as para código Go, mantendo as coisas nativas, eficientes e seguras.
-            image: /images/posts/orms.png
+          - title: "Microsserviços e eventos de forma fácil para devs Go"
+            content: Está na hora de usar microsserviços e arquiteturas orientadas a eventos. A boa notícia é que com Go e Watermill isso fica muito mais simples do que você imagina.
+            image: /images/posts/events.jpg
             featured:
               name: Ver mais
-              link: https://www.linkedin.com/feed/update/urn:li:activity:7099344430125494272/
+              link: https://www.linkedin.com/posts/danielmesquitta_microservices-and-events-made-easy-for-go-activity-7330200634379472897-P5dS
             badges:
               - "Go"
               - "Back-end"
-              - "SQL"
-              - "ORM"
+              - "Microsserviços"
+              - "Eventos"
+              - "Watermill"
 
       #Contact
       contact:
@@ -770,7 +837,7 @@ languages:
         articleList: "2 de Jan de 2006"
         articleRecent: "2 de Jan de 2006"
 
-      customScripts: -|
+      customScripts:
         <script type="text/javascript">
         document.querySelectorAll('.nav-link').forEach((el) => {
         el.href = el.href.replace('/#', '/pt/#');
